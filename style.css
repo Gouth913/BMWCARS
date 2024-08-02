@@ -43,13 +43,14 @@ a:hover{
 display: flex;
 justify-content:  space-between;
 align-items: center;
+width: 100%;
 }
 
 .products{
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(150px,2fr));
+    grid-template-columns: repeat(auto-fit,minmax(200px,2fr));
     gap: 1rem;
-    padding: 0px;
+    padding: 0cap;
     width: 100%;
 }
 
@@ -58,6 +59,22 @@ align-items: center;
     transition: transform 0.5s;
     border-radius: 20px;
     box-shadow: rgb(1, 29, 239) 0px 3px 8px;
+}
+
+button{
+
+    background-color:hsl(236, 87%, 75%);
+    border-radius:7cap;
+    font-size: 0.9rem;
+    padding: 6px 10px;
+    width: 100%;
+    text-align: center;
+    
+}
+
+.button:hover{
+    box-shadow: 0px 0px 50px firebrick;
+
 }
 
 .product:hover{
